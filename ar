@@ -19,16 +19,14 @@ local Tab8Section = Tab8:NewSection("سيوس اكس ار")
 local Tab9 = Window:NewTab("عشوائي")
 local Tab9Section = Tab9:NewSection("عشوائي")
 local Tab10 = Window:NewTab("السكربت صناع")
-local Tab10Section = Tab10:NewSection("Script By ZR.047#8444")
-local Tab10Section = Tab10:NewSection("✯ Hussein  ✯#9999")
-local Tab10Section = Tab10:NewSection("And Cristiano Ronaldo 𝐓𝐍丨#8026")
-local Tab10Section = Tab10:NewSection("And ZR.Riezo#2512")
-local Tab10Section = Tab10:NewSection("And روبـي「👑」Mx#2023")
+local Tab10Section = Tab10:NewSection("ZR.047#8444")
+local Tab10Section = Tab10:NewSection("✯ Hussein  ✯ Versàce#6749")
+local Tab10Section = Tab10:NewSection("ZR.Riezo#2512")
 Tab1Section:NewButton("Prsion ware", "Join prsoin life", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
 end)
-Tab1Section:NewButton("لايف برسون ادمن", "Join prsoin life", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+Tab1Section:NewButton("قائمه اسلحه", "Join prsoin life", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/h8VgYCxn'))()
 end)
 Tab1Section:NewButton("ثالث اصدار لاعب طياران", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/gNb0mYab"))();
@@ -181,7 +179,7 @@ Tab10Section:NewButton("انجليزيه اللغة", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../main/....phub"))()
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "صنع من سكربتZR.047";
+    Title = "صنع من سكربت ZR.047";
     Text = "قناة في اشترك ZR.P047";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
 Duration = 5;
