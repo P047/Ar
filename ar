@@ -131,7 +131,7 @@ local Tab4 = Window:NewTab("السكربت صناع")
 local Tab4Section = Tab4:NewSection("Script By ZR.047#8444")
 local Tab4Section = Tab4:NewSection("✯ Hussein  ✯ Versàce#6749")
 local Tab4Section = Tab4:NewSection("ZR.Riezo#2512")
-Tab4Section:NewButton("انجليزيه اللغه", "What?", function 
+Tab4Section:NewButton("انجليزيه اللغه", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../0cdb00c35b4fd9cf812b0f860f60b315e3df992f/....phub"))()
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", { 
