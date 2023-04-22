@@ -5,142 +5,196 @@ local Tab1Section = Tab1:NewSection("لايف برسون")
 Tab1Section:NewButton("السجن ادوات", "Join prsoin life", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
 end)
+
 Tab1Section:NewButton("الأسلحه قائمه", "Join prsoin life", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/h8VgYCxn'))()
 end)
+
 Tab1Section:NewButton("ثالث اصدار لاعب طياران", "What?", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8402"))()
 end)
+
 Tab1Section:NewButton("كيبورد 0.2", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
+
 local Tab1Section = Tab1:NewSection("كات")
 Tab1Section:NewButton("كات قائمه", "Join KAT", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
+
 Tab1Section:NewButton("Axure Hub", "Join KAT", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AkkGamerBoy/Axure-Hub/main/Axure%20Hub"))()
 end)
+
 Tab1Section:NewButton("KATER HUB", "Join KAT", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
 end)
+
 local Tab1Section = Tab1:NewSection("تو ام ام")
 Tab1Section:NewButton("تو ام ام قائمه", "Join Mm2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 end)
+
 Tab1Section:NewButton("تو ام ام ", "Join Mm2", function()
 loadstring(game:HttpGet("https://pastebin.com/S9QF9tEq"))();
 end)
+
 Tab1Section:NewButton("القاتل من", "Join Mm2", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/wrpZmiAt'))()
 end)
+
 local Tab1Section = Tab1:NewSection("مي ادوبت")
 Tab1Section:NewButton("تريد سرقه مي ادوبت", "Join adopt me", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/GWwBTRfk"))()
 end)
+
 Tab1Section:NewButton("اكس هوب سبيد مي ادوبت", "Join adopt me", function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
 end)
+
 local Tab1Section = Tab1:NewSection("البيوت ماب")
 Tab1Section:NewButton("هوب ايس", "Join Brookhaven", function()
 loadstring (game: HttpGet ("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")) ()
 end)
+
 Tab1Section:NewButton("ادمن هوب ايس", "Join Brookhaven", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/IceHubAdmin/main/IceHub'))()
 end)
+
 Tab1Section:NewButton("كومند ادمن", "What?", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/3hDQcTaD'))()
 end)
+
 Tab1Section:NewButton("Infinity yield", "What?", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
 Tab1Section:NewButton("ثالث اصدار الاعب طياران", "What?", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8402"))()
 end)
+
 local Tab1Section = Tab1:NewSection("فروت بلوكس")
 Tab1Section:NewButton("Adminus Blox fruits", "Join Blox script", function()
 loadstring(game:HttpGet('https://scripts.luawl.com/15951/Adminus-BloxFruits.lua'))()
 end)
+
 Tab1Section:NewButton("ZaqueHub", "Join Blox script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
 end)
+
 Tab1Section:NewButton("Blox fruits", "Join Blox script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/bf2", true))()
 end)
+
 local Tab1Section = Tab1:NewSection("ستي ميب")
 Tab1Section:NewButton("ستي ميب", "Join Meepcity", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua",true))()
 end)
+
 Tab1Section:NewButton("كراك ستي ميب", "Join Meepcity", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
 end)
+
 Tab1Section:NewButton("Meepcity Destroyer", "Join Meepcity", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua",true))()
 end)
+
 Tab1Section:NewButton("Meepcity Kart", "Join Meepcity", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bannable666/Scripts/main/Meep.txt", true))()
 end)
-local Tab2 = Window:NewTab("الاعب")
-local Tab2Section = Tab2:NewSection("القدرات")
-Tab2Section:NewSlider("السرعة", "Changes how fast you walk.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+
+local Tab2 = Window:NewTab("Admin Script")
+local Tab2Section = Tab2:NewSection("Scripts")
+
+Tab2Section:NewButton("infinite yield", "What?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("Admin Cmds", "What?", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3hDQcTaD'))()
+end)
+
+Tab2Section:NewButton("Admin Cmds", "What?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RqaZUrBZ"))()
+end)
+
+Tab2Section:NewButton("قريباً سكريبتات من المزيد", "What?", function()
+
+local Tab3 = Window:NewTab("الاعب")
+local Tab3Section = Tab3:NewSection("القدرات")
+Tab3Section:NewSlider("السرعة", "Changes how fast you walk.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
 
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s 
 end)
-Tab2Section:NewSlider("القفز", "Changes how fast you jump.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+Tab3Section:NewSlider("القفز", "Changes how fast you jump.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
 
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = s 
 end)
 
-Tab2Section:NewToggle("فوڤ", "Changes The Fov", function(state)
+Tab3Section:NewToggle("فوڤ", "Changes The Fov", function(state)
     if state then
         game.Workspace.CurrentCamera.FieldOfView = 120
     else
         game.Workspace.CurrentCamera.FieldOfView = 80
     end
 end)
-local Tab3 = Window:NewTab("عشوائي")
-local Tab3Section = Tab3:NewSection("عشوائي")
-Tab3Section:NewButton("سيارة طياران", "What?", function()
+
+local Tab4 = Window:NewTab("عشوائي")
+local Tab4Section = Tab4:NewSection("عشوائي")
+
+Tab4Section:NewButton("سيارة طياران", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
-Tab3Section:NewButton("سيارة طياران 2", "What?", function()
+
+Tab4Section:NewButton("سيارة طياران 2", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/c2QC27sJ"))()
 end)
-Tab3Section:NewButton("0.2 كيبورد", "What?", function()
+
+Tab4Section:NewButton("0.2 كيبورد", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
-Tab3Section:NewButton("كيبورد حجم", "What?", function()
+
+Tab4Section:NewButton("كيبورد حجم", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/xSsDaMg2"))()
 end)
-Tab3Section:NewButton("اكس سيوس ار", "What?", function()
+
+Tab4Section:NewButton("اكس سيوس ار", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/400-/main/Arceus044gx"))()
 end)
-Tab3Section:NewButton("جدران على المشي", "What?", function()
+
+Tab4Section:NewButton("جدران على المشي", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
-Tab3Section:NewButton("بيندوليوم", "What?", function()
+
+Tab4Section:NewButton("بيندوليوم", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
-Tab3Section:NewButton("هوب كيز", "What?", function()
+
+Tab4Section:NewButton("هوب كيز", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
 end)
-Tab3Section:NewButton("Youtube simulator Z autoclick", "Join Youtube Simulator Z", function()
+
+Tab4Section:NewButton("Youtube simulator Z autoclick", "Join Youtube Simulator Z", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0youtubez", true))()
 end)
-Tab3Section:NewButton("السكين", "only prsion life", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/frHvA27v"))()
-end)
-Tab3Section:NewButton("F3X", "What?", function()
-loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
-end)
-Tab3Section:NewButton("سكين", "only prsion life", function()
+
+Tab4Section:NewButton("السكين", "only prsion life", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/frHvA27v"))()
 end)
 
-local Tab4 = Window:NewTab("السكربت صناع")
-local Tab4Section = Tab4:NewSection("Script By ZR.047#8444")
-local Tab4Section = Tab4:NewSection("من مساعده")
-local Tab4Section = Tab4:NewSection("✯ Hussein  ✯ Versàce#6749")
+Tab4Section:NewButton("F3X", "What?", function()
+loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+Tab4Section:NewButton("سكين", "only prsion life", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/frHvA27v"))()
+end)
+
+local Tab5 = Window:NewTab("السكربت صناع")
+local Tab5Section = Tab5:NewSection("Script By ZR.047#8444")
+local Tab5Section = Tab5:NewSection("من مساعده")
+local Tab5Section = Tab5:NewSection("✯ Hussein  ✯ Versàce#6749")
 Tab4Section:NewButton("انجليزيه اللغه", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../0cdb00c35b4fd9cf812b0f860f60b315e3df992f/....phub"))()
 end)
@@ -150,11 +204,13 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "قناة في اشترك P047";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
 Duration = 5;
+
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "ملاحظه";
     Text = "الفني الدعم بمراسله قم مشكله وجهت اذا";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
 Duration = 5;
+
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "ملاحظه";
     Text = "الحقوق بتغير تقوم لا رجاء";
