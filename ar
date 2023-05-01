@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Phub", "Ocean")
+local Window = Library.CreateLib("Phub", "Midnight")
 local Tab1 = Window:NewTab("سكربتات")
 local Tab1Section = Tab1:NewSection("لايف برسون")
 Tab1Section:NewButton("السجن ادوات", "Join prsoin life", function()
@@ -10,7 +10,7 @@ Tab1Section:NewButton("الأسلحه قائمه", "Join prsoin life", function(
 loadstring(game:HttpGet('https://pastebin.com/raw/h8VgYCxn'))()
 end)
 
-Tab1Section:NewButton("ثالث اصدار لاعب طياران", "What?", function()
+Tab1Section:NewButton("الاعب طيران", "What?", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8402"))()
 end)
 
@@ -70,7 +70,7 @@ Tab1Section:NewButton("Infinity yield", "What?", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-Tab1Section:NewButton("ثالث اصدار الاعب طياران", "What?", function()
+Tab1Section:NewButton("الاعب طيران", "What?", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8402"))()
 end)
 
@@ -119,7 +119,7 @@ Tab2Section:NewButton("Admin Cmds", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/RqaZUrBZ"))()
 end)
 
-
+local Tab2Section = Tab2:NewSection("قريباً  سكريبتات من المزيد")
 
 local Tab3 = Window:NewTab("الاعب")
 local Tab3Section = Tab3:NewSection("القدرات")
@@ -196,7 +196,7 @@ local Tab5Section = Tab5:NewSection("Script By ZR.047#8444")
 local Tab5Section = Tab5:NewSection("من مساعده")
 local Tab5Section = Tab5:NewSection("✯ Hussein  ✯ Versàce#6749")
 Tab5Section:NewButton("انجليزيه اللغه", "What?", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../0cdb00c35b4fd9cf812b0f860f60b315e3df992f/....phub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../main/....phub")()
 end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
