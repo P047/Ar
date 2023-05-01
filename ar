@@ -196,7 +196,7 @@ local Tab5Section = Tab5:NewSection("Script By ZR.047#8444")
 local Tab5Section = Tab5:NewSection("من مساعده")
 local Tab5Section = Tab5:NewSection("✯ Hussein  ✯ Versàce#6749")
 Tab5Section:NewButton("انجليزيه اللغه", "What?", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../main/....phub")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/.../main/....phub"))()
 end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
